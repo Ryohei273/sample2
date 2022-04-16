@@ -7,36 +7,24 @@
     <title>Airclone</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="css/meanmenu.css" />
-    <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
-    <script src="js/jquery.meanmenu.js"></script>
-    <script>
-    $(document).ready(function() {
-    $('nav').meanmenu({
-        meanScreenWidth: "960", 
-    });
-    });
-    </script>
-
 </head>
 <body>
     <!-- ヘッダー -->
     <header class="p-header">
         <div class="p-header__container">
             <div class="p-header__logo">
-                <img src="image/icon.svg" width="168px" height="30px">
-        
+                <img src="image/icon.svg" width="35px" height="30px">
             </div>
-            <nav class="p-header__nav">
-                <ul class="p-header__nav__list">
-                    <li><a href="#">宿泊先</a></li>
-                    <li><a href="#">体験</a></li>
-                    <li><a href="#">オンライン体験</a></li>
-                    <li><a href="#">ホストになる</a></li>
-                    <li><a href="#">グローバル</a></li>
-                    <li><a href="#">登録/ログイン</a></li>
+            <div class="menu-icon-box">
+                <input type="checkbox" class="menu-btn" id="menu-btn">
+                <label for="menu-btn" class="menu-icon"><span class="navicon"></span></label>
+                <ul class="menu">
+                    <li class="top"><a href="#home" class="c-text__lv4">宿泊先</a></li>
+                    <li><a href="#skills" class="c-text__lv4">体験</a></li>
+                    <li><a href="#projects" class="c-text__lv4">オンライン体験</a></li>
+                    <li><a href="#contact" class="c-text__lv4">ホストになる</a></li>
                 </ul>
-            </nav>
+            </div>
         </div>
     </header>
     <!-- メイン -->
@@ -67,7 +55,7 @@
                             </div>
                             <div class="p-areaList__text">
                                 <p class="c-text__lv4">ヘッド</p>
-                                <p class="description__lv3">説明説明説明</p>
+                                <p class="c-description__lv3">説明説明説明</p>
                             </div>
                         </li>
                         <li class="p-areaList__item">
@@ -76,7 +64,7 @@
                             </div>
                             <div class="p-areaList__text">
                                 <p class="c-text__lv4">ヘッド</p>
-                                <p class="description__lv3">説明説明説明</p>
+                                <p class="c-description__lv3">説明説明説明</p>
                             </div>
                         </li>
                         <li class="p-areaList__item">
@@ -85,7 +73,7 @@
                             </div>
                             <div class="p-areaList__text">
                                 <p class="c-text__lv4">ヘッド</p>
-                                <p class="description__lv3">説明説明説明</p>
+                                <p class="c-description__lv3">説明説明説明</p>
                             </div>
                         </li>
                         <li class="p-areaList__item">
@@ -94,7 +82,7 @@
                             </div>
                             <div class="p-areaList__text">
                                 <p class="c-text__lv4">ヘッド</p>
-                                <p class="description__lv3">説明説明説明</p>
+                                <p class="c-description__lv3">説明説明説明</p>
                             </div>
                         </li>
                         <li class="p-areaList__item">
@@ -103,7 +91,7 @@
                             </div>
                             <div class="p-areaList__text">
                                 <p class="c-text__lv4">ヘッド</p>
-                                <p class="description__lv3">説明説明説明</p>
+                                <p class="c-description__lv3">説明説明説明</p>
                             </div>
                         </li>
                         <li class="p-areaList__item">
@@ -112,7 +100,7 @@
                             </div>
                             <div class="p-areaList__text">
                                 <p class="c-text__lv4">ヘッド</p>
-                                <p class="description__lv3">説明説明説明</p>
+                                <p class="c-description__lv3">説明説明説明</p>
                             </div>
                         </li>
                         <li class="p-areaList__item">
@@ -121,7 +109,7 @@
                             </div>
                             <div class="p-areaList__text">
                                 <p class="c-text__lv4">ヘッド</p>
-                                <p class="description__lv3">説明説明説明</p>
+                                <p class="c-description__lv3">説明説明説明</p>
                             </div>
                         </li>
                         <li class="p-areaList__item">
@@ -130,7 +118,7 @@
                             </div>
                             <div class="p-areaList__text">
                                 <p class="c-text__lv4">ヘッド</p>
-                                <p class="description__lv3">説明説明説明</p>
+                                <p class="c-description__lv3">説明説明説明</p>
                             </div>
                         </li>
 
@@ -208,7 +196,7 @@
                             </div>
                             <div class="p-cardList__item__text">
                                 <p class="c-text__lv4">自然に囲まれた宿泊先</p>
-                                <p class="description__lv3">説明文説明文説明文説明文説明文説明文説明文説明文</p>
+                                <p class="c-description__lv3">説明文説明文説明文説明文説明文説明文説明文説明文</p>
 
                             </div>
                         </li>
@@ -218,7 +206,7 @@
                             </div>
                             <div class="p-cardList__item__text">
                                 <p class="c-text__lv4">自然に囲まれた宿泊先</p>
-                                <p class="description__lv3">説明文説明文説明文説明文</p>
+                                <p class="c-description__lv3">説明文説明文説明文説明文</p>
                             </div>
                         </li>
                         <li class="p-cardList__item">
@@ -227,7 +215,7 @@
                             </div>
                             <div class="p-cardList__item__text">
                                 <p class="c-text__lv4">自然に囲まれた宿泊先</p>
-                                <p class="description__lv3">説明文説明文説明文説明文</p>
+                                <p class="c-description__lv3">説明文説明文説明文説明文</p>
                             </div>
                         </li>
                         <li class="p-cardList__item">
@@ -236,7 +224,7 @@
                             </div>
                             <div class="p-cardList__item__text">
                                 <p class="c-text__lv4">自然に囲まれた宿泊先</p>
-                                <p class="description__lv3">説明文説明文説明文説明文</p>
+                                <p class="c-description__lv3">説明文説明文説明文説明文</p>
                             </div>
                         </li>
                     </ul>
