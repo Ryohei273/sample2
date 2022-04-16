@@ -24,8 +24,6 @@ body {
 .c-text__lv1 {
     font-size: 56px;
     font-weight: 700;
-    /* ネオン */
-    text-shadow: 0px 0px 5px #ffffff;
 }
 
 .c-text__lv2 {
@@ -55,7 +53,7 @@ body {
 
 .c-description__lv2 {
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 500;
     margin-top: 5px;
 }
 
@@ -63,7 +61,12 @@ body {
     font-size:16px;
     font-weight: 500;
     margin-top: 5px;
-    text-shadow: 0px 0px 5px #ffffff;
+}
+
+.c-description__lv4 {
+    font-size:16px;
+    font-weight: 300;
+    margin-top: 5px;
 }
 
 .c-button {
@@ -157,7 +160,12 @@ ul.menu {
 }
 .p-home__mainVisual__text {
     max-width: 600px;
-
+}
+.p-home__mainVisual__text h2 {
+    text-shadow: 0px 0px 5px #ffffff;
+}
+.p-home__mainVisual__text p {
+    text-shadow: 0px 0px 5px #ffffff;
 }
 .p-home__mainVisual__text .c-button {
     margin: 16px 0 0;
